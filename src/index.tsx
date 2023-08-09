@@ -13,10 +13,10 @@ root.render(
   </StrictMode>
 );
 
-const rootElement = document.getElementById('myDiv');
-const root = createRoot(rootElement);
+const rootElement2 = document.getElementById('myDiv');
+const root2 = createRoot(rootElement2);
 
-root.render(
+root2.render(
   <StrictMode>
     <App />
   </StrictMode>

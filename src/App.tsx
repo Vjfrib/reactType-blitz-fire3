@@ -8,3 +8,7 @@ export default function App() {
     </div>
   );
 }
+
+export function teste(): JFX.Element {
+  return <h1>hello!</h1>;
+}

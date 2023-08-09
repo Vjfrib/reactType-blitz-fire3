@@ -9,6 +9,6 @@ export default function App() {
   );
 }
 
-export function teste(): JFX.Element {
+export function teste(): JSX.Element {
   return <h1>hello!</h1>;
 }

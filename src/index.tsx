@@ -3,12 +3,16 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
 import App from './App';
+import SideMenu from './SideMenu.tsx';
 
+//Tudo isso vai entrar na div root. o app autofechavel e a tag p
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
     <App />
+    <p>as we all stand united</p>
+    <SideMenu />
   </StrictMode>
 );
